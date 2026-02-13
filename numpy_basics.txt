@@ -1,0 +1,12 @@
+Numpy -> Numerical python
+Why numpy?  -> Because in python list it stores every element as an object and only keeps reference of them. This makes
+them memory inefficient and very slow for numerical operations
+Numpy on the other-hand stores elements in an array
+-> contiguous memory location
+-> elements of same data type
+-> memory efficient
+-> faster
+
+Homogeneous data -> same data type storage
+Because NumPy stores elements in contiguous memory blocks. For this to work efficiently, each element must occupy the
+same amount of memory. Mixed data types would require variable memory sizes, which would reduce performance.
